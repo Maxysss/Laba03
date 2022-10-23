@@ -3,7 +3,7 @@
 
 int main()
 {
-    int i, n = 100, array[100], choice = 1, check, check01, check02, check03,check04,x=0;
+    int i, n = 100, array[100], choice = 1,x=0;
  
     printf("Select array size:\n1)Random size\n2)Your size\n");
     while (scanf_s("%d", &choice) != 1 || getchar() != '\n')
